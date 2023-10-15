@@ -20,3 +20,6 @@ ROT47: Provides stronger encryption using the ROT47 algorithm.
 
 Future Updates:
 We are committed to improving SecureMessageEncryptor. Expect more encryption options to be added in the future, ensuring the most robust message security.
+
+To test the program, download the file, open it in the terminal and use:
+<code>python3 main.py</code>
