@@ -19,7 +19,7 @@ ROT18: A variation of ROT13 and ROT5 for enhanced encryption.
 ROT47: Provides stronger encryption using the ROT47 algorithm.
 
 Future Updates:
-We are committed to improving SecureMessageEncryptor. Expect more encryption options to be added in the future, ensuring the most robust message security.
+I am committed to improving SecureMessageEncryptor. Expect more encryption options to be added in the future, ensuring the most robust message security.
 
 To test the program follow these simple stes:
 
