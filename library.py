@@ -20,7 +20,15 @@ numbers = {}
 for x in range(len(alfabet)):
 	numbers[alfabet[x]] = x+1
 
-rot47 = {}
+rot47 = {
+        ' ': '@', '!': 'A', '"': 'B', '#': 'C', '$': 'D', '%': 'E', '&': 'F', "'": 'G', '(': 'H', ')': 'I',
+        '*': 'J', '+': 'K', ',': 'L', '-': 'M', '.': 'N', '/': 'O', '0': 'P', '1': 'Q', '2': 'R', '3': 'S',
+        '4': 'T', '5': 'U', '6': 'V', '7': 'W', '8': 'X', '9': 'Y', ':': 'Z', ';': '[', '<': '\\', '=': ']',
+        '>': '^', '?': '_', '@': ' ', 'A': '!', 'B': '"', 'C': '#', 'D': '$', 'E': '%', 'F': '&', 'G': "'",
+        'H': '(', 'I': ')', 'J': '*', 'K': '+', 'L': ',', 'M': '-', 'N': '.', 'O': '/', 'P': '0', 'Q': '1',
+        'R': '2', 'S': '3', 'T': '4', 'U': '5', 'V': '6', 'W': '7', 'X': '8', 'Y': '9', 'Z': ':', '[': ';',
+        '\\': '<', ']': '=', '^': '>', '_': '?'
+    }
 
 def translateToROT13(phrase):
 	phrase = phrase.upper()
@@ -55,7 +63,7 @@ def translateToNumbers(phrase):
 
 	return translatedPhrase[:len(translatedPhrase)-1]
 
-def translateToRot18(phrase):
+def translateToROT18(phrase):
 	phrase = phrase.upper()
 	translatedPhrase = ""
 	for word in phrase:
@@ -71,3 +79,15 @@ def translateToRot18(phrase):
 					translatedPhrase+=i
 
 	return translatedPhrase
+
+def translateToROT47(phrase):
+
+	encrypted_message = []
+
+	for char in phrase:
+		if char in rot47:
+			encrypted_message.append(rot47[char])
+		else:
+			encrypted_message.append(char)
+
+	return "".join(encrypted_message)

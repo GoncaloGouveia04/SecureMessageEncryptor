@@ -43,7 +43,7 @@ def menu():
             exited = chooseIfExiting(option2)
         elif option == 18:
             phrase = input("Insert the phrase or word you want to encrypt to ROT18: ")
-            print(translateToRot18(phrase))
+            print(translateToROT18(phrase))
             option2 = ""
             exited = chooseIfExiting(option2)
         
