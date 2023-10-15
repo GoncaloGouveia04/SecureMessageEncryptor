@@ -21,37 +21,12 @@ ROT47: Provides stronger encryption using the ROT47 algorithm.
 Future Updates:
 We are committed to improving SecureMessageEncryptor. Expect more encryption options to be added in the future, ensuring the most robust message security.
 
-To test the program, please follow these steps:
+To test the program follow these simple stes:
 
-1. **Download the Files:**
-   - If you haven't already, download the program files to your computer.
+1*- Open the terminal of your operative system;
 
-2. **Open a Terminal:**
-   - On most operating systems (Windows, macOS, or Linux), open a terminal or command prompt.
+2*- Go to the folders path;
 
-3. **Navigate to the Program Directory:**
-   - Use the `cd` command to navigate to the directory where you downloaded the program. For example:
-     ```
-     cd path/to/program_directory
-     ```
+3*- Type <code>python3 main.py</code> or <code>python main.py</code>
 
-4. **Run the Program:**
-   - To run the program, execute the following command:
-     ```
-     python3 main.py
-     ```
-   - If you are using Python on Windows, you can use the command:
-     ```
-     python main.py
-     ```
-     If Python 3 is installed, this should work as well.
-
-5. **Follow the On-Screen Instructions:**
-   - The program will display a menu of encryption options. Follow the on-screen instructions to choose an option and provide input as needed.
-
-6. **Enjoy Using the Program:**
-   - Use the program to encrypt and decrypt messages using various algorithms. Have fun exploring its features!
-
-Note: If you don't have Python 3 installed on your system, you may need to download it from the official Python website (https://www.python.org/downloads/) or from your operating system's package manager. If you're using Windows, you can also follow the on-screen instructions to install Python 3 from the Microsoft Store.
-
-If you encounter any issues or have questions, feel free to reach out for assistance.
+4*- Enjoy!
