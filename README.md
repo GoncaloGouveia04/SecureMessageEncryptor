@@ -25,7 +25,7 @@ To test the program follow these simple stes:
 
 1- **Open the terminal of your operative system**
 
-2- **Go to the folders path
+2- **Go to the folders path**
 
 3- **Type <code>python3 main.py</code> or <code>python main.py</code>**
 
