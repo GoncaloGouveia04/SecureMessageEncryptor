@@ -23,3 +23,6 @@ We are committed to improving SecureMessageEncryptor. Expect more encryption opt
 
 To test the program, download the file, open it in the terminal and use:
 <code>python3 main.py</code>
+
+<code>Python3 for Windows:</code>
+if you dont have python3 installed, just write in the terminal <code>python3</code> and it will direct you to a microsoft store page to download python3
