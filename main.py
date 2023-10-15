@@ -16,20 +16,19 @@ def chooseIfExiting(option2):
 def menu():
     exited = False
     while not exited:
-        print("____________________________________________________________________________________________")
-        print("|                                                                                           |")
-        print("| Welcome to Phrase Encryption. Here you can encrypt messages in the algorythm you want.    |")
-        print("|                             Just choose the option you want here.                         |")
-        print("| Choose an option:                                                                         |")
-        print("| 1-Encrypt to numbers                                                                      |")
-        print("| 13-Encrypt to ROT13                                                                       |")
-        print("| 18-Encrypt to ROT18                                                                       |")
-        print("| 47-Encrypt to ROT47                                                                       |")
-        print("| ...                                                                                       |")
-        print("| 99-Exit.                                                                                  |")
-        print("|___________________________________________________________________________________________|")
+        print("-" * 80)
+        print("|{:^78}|".format("Welcome to Phrase Encryption"))
+        print("|{:^78}|".format("Here you can encrypt messages using various algorithms."))
+        print("-" * 80)
+        print("|{:<3} Encrypt to numbers (1) {:<51}|".format("", ""))
+        print("|{:<3} Encrypt to ROT13 (13){:<53}|".format("", ""))
+        print("|{:<3} Encrypt to ROT18 (18){:<53}|".format("", ""))
+        print("|{:<3} Encrypt to ROT47 (47){:<53}|".format("", ""))
+        print("|{:<3} ...                      {:<49}|".format("", ""))
+        print("|{:<3} Exit (99)                {:<49}|".format("", ""))
+        print("-" * 80)
     
-        option = int(input(""))
+        option = int(input("Choose an option from the menu: "))
 
         if option == 1:
             phrase = input("Insert the phrase or word you want to encrypt to numbers: ")
